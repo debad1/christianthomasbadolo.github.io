@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tag -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Seo Meta -->
+    <meta name="description" content="Christian Thomas BADOLO - Engineering Student">
+    <meta name="keywords" content="portfolio template, portfolio, personal template, responsive portfolio, personal, themeforest, html portfolio template, css3, html5">
+
+    <title>Christian Thomas BADOLO - Engineering Student</title>
+
+    <!-- Favicon -->
+    <link href="images/logos/favicon.jpg" rel="icon">
+
+    <!-- IOS Touch Icons -->
+    <link rel="apple-touch-icon" href="images/logos/touch-icon-iphone.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/logos/touch-icon-ipad.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logos/touch-icon-iphone-retina.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/logos/touch-icon-ipad-retina.png">
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Styles -->
+    <link href="css/plugins.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+    <!-- Page loader -->
+    <div id="loader">
+        <div id="loader_bar"></div>
+    </div>
+
+    <!-- Start:: wrapper -->
+    <div id="wrapper">
+
+        <!-- Start:: sidebar -->
+        <aside id="sidebar">
+            <div class="sidebar-header">
+                <a href="homepage.html" aria-label="Logo">
+                    <img src="images/logos/logo.png" alt="">
+                </a>
+                <a href="javascript:void(0);" role="button" id="sidebar_close">&times;</a>
+            </div>
+            <div class="sidebar-body">
+                <nav class="navbar">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Academic Journey</a></li>
+                        <li><a href="#certificate">Certifications</a></li>
+                        <li><a href="#portfolio">Projects</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="sidebar-footer">
+                <ul class="social unlist">
+                    <li>
+                        <a href="https://www.linkedin.com/in/christianthomasbadolo/" aria-label="Linkedin">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/debad1" aria-label="Github">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.001 2C6.47598 2 2.00098 6.475 2.00098 12C2.00098 16.425 4.86348 20.1625 8.83848 21.4875C9.33848 21.575 9.52598 21.275 9.52598 21.0125C9.52598 20.775 9.51348 19.9875 9.51348 19.15C7.00098 19.6125 6.35098 18.5375 6.15098 17.975C6.03848 17.6875 5.55098 16.8 5.12598 16.5625C4.77598 16.375 4.27598 15.9125 5.11348 15.9C5.90098 15.8875 6.46348 16.625 6.65098 16.925C7.55098 18.4375 8.98848 18.0125 9.56348 17.75C9.65098 17.1 9.91348 16.6625 10.201 16.4125C7.97598 16.1625 5.65098 15.3 5.65098 11.475C5.65098 10.3875 6.03848 9.4875 6.67598 8.7875C6.57598 8.5375 6.22598 7.5125 6.77598 6.1375C6.77598 6.1375 7.61348 5.875 9.52598 7.1625C10.326 6.9375 11.176 6.825 12.026 6.825C12.876 6.825 13.726 6.9375 14.526 7.1625C16.4385 5.8625 17.276 6.1375 17.276 6.1375C17.826 7.5125 17.476 8.5375 17.376 8.7875C18.0135 9.4875 18.401 10.375 18.401 11.475C18.401 15.3125 16.0635 16.1625 13.8385 16.4125C14.201 16.725 14.5135 17.325 14.5135 18.2625C14.5135 19.6 14.501 20.675 14.501 21.0125C14.501 21.275 14.6885 21.5875 15.1885 21.4875C19.259 20.1133 21.9999 16.2963 22.001 12C22.001 6.475 17.526 2 12.001 2Z" fill="currentColor"/>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+                <p>© DeBADOLO 2023 <br>All Rights Reserved</p>
+            </div>
+        </aside>
+        <!-- End:: sidebar -->
+
+        <!-- Start:: main -->
+        <main id="main">
+
+            <!-- Start:: header -->
+            <header id="header">
+                <div class="container">
+
+                    <!-- ========================= -->
+                    <!--   Start:: theme setting   -->
+                    <!-- ========================= -->
+                    <div class="setting">
+                        <input type="checkbox" id="theme">
+                        <label for="theme">
+                            <svg width="24" height="24" id="light" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" d="M12 21.9966C6.47715 21.9966 2 17.5194 2 11.9966C2 6.47373 6.47715 1.99658 12 1.99658C17.5228 1.99658 22 6.47373 22 11.9966C22 17.5194 17.5228 21.9966 12 21.9966ZM12 19.9966C16.4183 19.9966 20 16.4149 20 11.9966C20 7.5783 16.4183 3.99658 12 3.99658C7.58172 3.99658 4 7.5783 4 11.9966C4 16.4149 7.58172 19.9966 12 19.9966ZM7.00035 15.3158C9.07995 15.1645 11.117 14.2938 12.7071 12.7037C14.2972 11.1136 15.1679 9.07654 15.3193 6.99694C15.6454 7.21396 15.955 7.46629 16.2426 7.75394C18.5858 10.0971 18.5858 13.8961 16.2426 16.2392C13.8995 18.5824 10.1005 18.5824 7.75736 16.2392C7.46971 15.9516 7.21738 15.642 7.00035 15.3158Z"/>
+                            </svg>
+                            <svg width="24" height="24" id="dark" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" d="M12 21.9966C6.47715 21.9966 2 17.5194 2 11.9966C2 6.47373 6.47715 1.99658 12 1.99658C17.5228 1.99658 22 6.47373 22 11.9966C22 17.5194 17.5228 21.9966 12 21.9966ZM5.32889 16.4219C6.76378 18.5674 9.20868 19.9801 11.9836 19.9801C16.4018 19.9801 19.9836 16.3984 19.9836 11.9801C19.9836 9.20518 18.5707 6.76021 16.4251 5.32535C17.2705 8.35312 16.5025 11.7367 14.1213 14.118C11.7401 16.4992 8.3566 17.2671 5.32889 16.4219Z"/>
+                            </svg>
+                            <span class="hidden">Change theme</span>
+                        </label>
+                    </div>
+                    <!-- ========================= -->
+                    <!--    End:: theme setting    -->
+                    <!-- ========================= -->
+
+                    <a href="javascript:void(0);" role="button" id="hamburger" aria-label="Hamburger"></a>
+
+                </div>
+            </header>
+            <!-- End:: header -->
+
+            <!-- Start:: intro section -->
+            <section id="intro">
+                <div class="container relative">
+                    <img src="images/shapes/stars.svg" class="shape shape--3" data-animate="fade-right" alt="">
+                    <div class="row">
+                        <div class="intro-content relative">
+                            <img src="images/shapes/party.svg" class="shape shape--2" data-animate="fade" data-animate-delay="800ms" alt="">
+                            <h1 class="relative" data-animate="fade-up">Hello, I’m Christian Thomas BADOLO Engineering Student at Ecole Centrale Casablanca <span data-animate="opacity" data-animate-delay="500ms">Based in Bouskoura</span></h1>
+                            <div class="link-group" data-animate="fade-up" data-animate-delay="250ms">
+                                <a href="#contact" class="btn btn--primary">
+                                    <span>Let's Talk</span>
+                                    <span class="btn__icon">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="currentColor" d="M21 3C21.5523 3 22 3.44772 22 4V20.0066C22 20.5552 21.5447 21 21.0082 21H2.9918C2.44405 21 2 20.5551 2 20.0066V19H20V7.3L12 14.5L2 5.5V4C2 3.44772 2.44772 3 3 3H21ZM8 15V17H0V15H8ZM5 10V12H0V10H5ZM19.5659 5H4.43414L12 11.8093L19.5659 5Z"/>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <a href="portfolio.html" class="arrow-link underline-animation">
+                                    <span>My Projects</span>
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M12.8137 1.00819C12.8137 0.732049 12.5899 0.508192 12.3137 0.508191L7.81371 0.508191C7.53757 0.508191 7.31371 0.732049 7.31371 1.00819C7.31371 1.28433 7.53757 1.50819 7.81371 1.50819L11.8137 1.50819L11.8137 5.50819C11.8137 5.78433 12.0376 6.00819 12.3137 6.00819C12.5899 6.00819 12.8137 5.78433 12.8137 5.50819L12.8137 1.00819ZM1.35355 12.6755L12.6673 1.36174L11.9602 0.654638L0.646447 11.9683L1.35355 12.6755Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hero-1">
+                            <div class="hero-cover relative" data-animate="fade-left">
+                                <img src="images/hero/hero-1.png" class="hero-cover__image" alt="">
+                                <img src="images/shapes/warm.svg" class="shape shape--1" alt="">
+                                <div class="hero-border"></div>
+                                <a href="#about" class="circle scroll-down" aria-label="Scroll down" data-animate="fade-down" data-animate-delay="400ms">
+                                    <img src="images/icons/scroll-down.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End:: intro section -->
+
+            <!-- Start:: about section -->
+             <section id="about" class="section">
+                <div class="container">
+                    <div class="row">
+                        <!-- About info -->
+                        <div class="about-info" data-animate="fade-right">
+                            <div class="about-info__block">
+                                <div class="about-info__item">
+                                    <span>Name</span>
+                                    <div class="about-info__text fw-medium">Christian Thomas BADOLO</div>
+                                </div>
+                                <div class="about-info__item">
+                                    <span>Date of birth</span>
+                                    <div class="about-info__text fw-medium">July, 03 2002</div>
+                                </div>
+                                <div class="about-info__item">
+                                    <span>Email id</span>
+                                    <a href="mailto:christian.badolo@centrale-casablanca.ma" class="about-info__text fw-medium">christian.badolo@centrale-casablanca.ma</a>
+                                </div>
+                                <div class="about-info__item">
+                                    <span>Phone no.</span>
+                                    <a href="tel:+212 700127382" class="about-info__text fw-medium">07001-27382</a>
+                                </div>
+                                <div class="about-info__item">
+                                    <span>Address</span>
+                                    <div class="about-info__text fw-medium">Campus Ecole Centrale Casablanca, Bouskoura</div>
+                                </div>
+                            </div>
+                            <a href="theme\Resume.pdf" class="btn btn--primary" download="Resume_Christian_BADOLO.pdf">
+                                <span>Download Resume</span>
+                                <span class="btn__icon">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M12.9999 16.1716L18.3638 10.8076L19.778 12.2218L11.9999 20L4.22168 12.2218L5.63589 10.8076L10.9999 16.1716V4H12.9999V16.1716Z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                        <!-- About content -->
+                        <div class="about-content" data-animate="fade-left">
+                            <h2>About <span class="fw-semibold">me</span></h2>
+                            <p class="fw-medium">Hello, I’m Christian Thomas BADOLO Engineering Student at Ecole Centrale Casablanca.</p>
+                            <p>Driven by spontaneity, rigor, and a strong sense of curiosity, I am currently in my second year of engineering at Ecole Centrale Casablanca, where I am dedicated to shaping the future by fostering innovation.</p>
+                            <div class="stats">
+                                <div class="stats__item">
+                                    <span class="stats__number">22</span>
+                                    <p>Years Old</p>
+                                </div>
+                                <div class="stats__item">
+                                    <span class="stats__number">2</span>
+                                    <p>Internships</p>
+                                </div>
+                                <div class="stats__item">
+                                    <span class="stats__number">9</span>
+                                    <p>Projects Completed</p>
+                                </div>
+                                <div class="stats__item">
+                                    <span class="stats__number">15</span>
+                                    <p>Certificates</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-block">
+                        <div class="row">
+                            <!-- Experience -->
+                            <div class="experience" data-animate="fade-right">
+                                <div class="mb-48">
+                                    <h3>My <span class="fw-semibold">experience</span></h3>
+                                    <p>My main experiences are as an intern and as the head of a school association.</p>
+                                </div>
+                                <div class="experience-list">
+                                    <div class="experience-list__item">
+                                        <div class="experience-list__block">
+                                            <span class="experience-list__subtitle">Apr 2023 - Present</span>
+                                            <span class="experience-list__title">Event Manager</span>
+                                            <p>Enactus Centrale Casablanca · Part-time</p>
+                                        </div>
+                                    </div>
+                                    <div class="experience-list__item">
+                                        <div class="experience-list__block">
+                                            <span class="experience-list__subtitle">Nov 2022 - Present</span>
+                                            <span class="experience-list__title">Private tutor</span>
+                                            <p>Smartprof · Private tutor</p>
+                                        </div>
+                                    </div>
+                                    <div class="experience-list__item">
+                                        <div class="experience-list__block">
+                                            <span class="experience-list__subtitle">Jan 2024 - Feb 2024</span>
+                                            <span class="experience-list__title">Intern</span>
+                                            <p>TechnoHacks EduTech · Internship</p>
+                                        </div>
+                                    </div>
+                                    <div class="experience-list__item">
+                                        <div class="experience-list__block">
+                                            <span class="experience-list__subtitle">Jul 2023 - Aug 2023</span>
+                                            <span class="experience-list__title">Intern</span>
+                                            <p>Smartprof · Internship</p>
+                                        </div>
+                                    </div>
+                                  
+                                   
+                                    <div class="experience-list__item">
+                                        <div class="experience-list__block">
+                                            <span class="experience-list__subtitle">Nov 2022</span>
+                                            <span class="experience-list__title">Elève pilote</span>
+                                            <p>Lors de la 7ème édition du Forum ECC - Entreprises 2022</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Skill -->
+                            <div class="skill" data-animate="fade-left">
+                                <h3 class="mb-48">My <span class="fw-semibold">skills</span></h3>
+                                <div class="skill-list">
+                                    <div class="skill-list__item">
+                                        <span class="skill-list__title fw-semibold">Data cleaning and visualization</span>
+                                        <div class="progress">
+                                            <div class="progress__bar" style="--progress-width: 80%">
+                                                <span class="progress__badge">80%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-list__item">
+                                        <span class="skill-list__title fw-semibold">Machine learning</span>
+                                        <div class="progress">
+                                            <div class="progress__bar" style="--progress-width: 82%">
+                                                <span class="progress__badge">90%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="skill-list__item">
+                                        <span class="skill-list__title fw-semibold">Teamwork and collaboration</span>
+                                        <div class="progress">
+                                            <div class="progress__bar" style="--progress-width: 80%">
+                                                <span class="progress__badge">90%</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skill-list__item">
+                                        <span class="skill-list__title fw-semibold">Microsoft Office (Word, Excel, PowerPoint, PowerBI)</span>
+                                        <div class="progress">
+                                            <div class="progress__bar" style="--progress-width: 97%">
+                                                <span class="progress__badge">97%</span>
+                                            </div>
+                                        </div>
+                                    <div class="skill-list__item">
+                                    <span class="skill-list__title fw-semibold">Web Scraping</span>
+                                    <div class="progress">
+                                        <div class="progress__bar" style="--progress-width: 82%">
+                                            <span class="progress__badge">85%</span>
+                                        </div>
+                                    </div>
+                                    <div class="skill-list__item">
+                                    <span class="skill-list__title fw-semibold">Web Development</span>
+                                    <div class="progress">
+                                        <div class="progress__bar" style="--progress-width: 82%">
+                                            <span class="progress__badge">85%</span>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End:: about section -->
+
+            <!-- Start:: services section -->
+            <section id="services" class="section">
+                <div class="container relative">
+                    <span class="shape shape--4" data-animate="fade">
+                        <svg width="186" height="100%" viewBox="0 0 186 198" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M75.7729 17.2222L70.6186 22.3765L115.371 22.3766L110.217 17.2219L75.7729 17.2222ZM97.7723 4.77753L88.2177 4.77745L92.9949 0.000169516L97.7723 4.77753ZM127.816 34.8209L58.1738 34.8213L53.0195 39.9756L132.97 39.9757L127.816 34.8209ZM145.415 52.42L40.5747 52.4204L35.4204 57.5748L150.57 57.5748L145.415 52.42ZM163.014 70.0191L22.9756 70.0195L17.8211 75.174L168.169 75.1739L163.014 70.0191ZM180.613 87.6182L5.37668 87.6184L0.221987 92.7731L185.768 92.773L180.613 87.6182ZM185.767 105.218L0.222294 105.217L5.37703 110.372L180.613 110.372L185.767 105.218ZM168.168 122.817L17.8214 122.817L22.976 127.971L163.014 127.971L168.168 122.817ZM150.569 140.416L35.4204 140.415L40.5751 145.57L145.415 145.57L150.569 140.416ZM132.97 158.015L53.0195 158.015L58.1742 163.169L127.816 163.169L132.97 158.015ZM115.371 175.614L70.6186 175.614L75.7733 180.768L110.216 180.769L115.371 175.614ZM97.772 193.213L88.2177 193.213L92.9949 197.99L97.772 193.213Z"/>
+                        </svg>
+                    </span>
+                    <div class="section__head relative" data-animate="fade-up">
+                        <span class="section__subtitle">Academic Journey</span>
+                        <h2>What I <span class="fw-semibold">learnt</span></h2>
+                        <p>Ecole Centrale Casablanca is a prestigious institution within the Centrale Schools group, offering a wide and varied range of educational programs.</p>
+                    </div>
+                    <!-- Services -->
+                    <div class="service">
+                        <div class="service__item" data-animate="fade-up">
+                            <div class="service__number">01</div>
+                            <div class="service__info">
+                                <span>Semester 5 & 6</span>
+                                <span class="service__title">Tronc Commun</span>
+                            </div>
+                            <div class="service__text">
+                                During semesters 5 and 6, I learned the essential foundations required for engineering school during a common core curriculum.
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up">
+                            <div class="service__number">02</div>
+                            <div class="service__info">
+                                <span>Semester 5, 6 & 7</span>
+                                <span class="service__title">ADPL - Ateliers de Developpement Personel et Leadership</span>
+                            </div>
+                            <div class="service__text">
+                                ADPL courses, self-awareness, inspiring leaders, communication improvement, emotion connection, effective teamwork, complexity management, innovative solutions, self-discovery, professional project construction, comprehensive approach, personal development, collaboration, innovation.
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up" data-animate-delay="100ms">
+                            <div class="service__number">03</div>
+                            <div class="service__info">
+                                <span>Semester 7</span>
+                                <span class="service__title"> Sustainable Development</span>
+                            </div>
+                            <div class="service__text">
+                                Sustainable development principles, economic growth, environmental protection, social equity, eco-friendly products, Life Cycle Assessment (LCA), environmentally responsible solutions.
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up" data-animate-delay="200ms">
+                            <div class="service__number">04</div>
+                            <div class="service__info">
+                                <span>Semester 7</span>
+                                <span class="service__title"> RSE - Corporate Social Responsibility (CSR)</span>
+                            </div>
+                            <div class="service__text">
+                                Corporate Social Responsibility, ethical business practices, community engagement, positive contribution, socially responsible operations, profitability, business strategies.
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up" data-animate-delay="300ms">
+                            <div class="service__number">05</div>
+                            <div class="service__info">
+                                <span>Semester 7</span>
+                                <span class="service__title">Sociology of Organizations</span>
+                            </div>
+                            <div class="service__text">
+                                Organizational dynamics, sociological perspective, organizational structure, individual and group behavior, effectiveness, organizational culture, organizational change, leadership styles, communication, organizational success.
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="service__number">06</div>
+                            <div class="service__info">
+                                <span>Semester 7</span>
+                                <span class="service__title">Quality & Reliability Engineering</span>
+                            </div>
+                            <div class="service__text">
+                                 Tools and techniques for ensuring product and process quality, statistical quality control, reliability engineering principles, and possibly Six Sigma methodologies.
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="service__number">07</div>
+                            <div class="service__info">
+                                <span>Semester 7</span>
+                                <span class="service__title">Graph Theory </span>
+                            </div>
+                            <div class="service__text">
+                                Graph algorithms, network flows, shortest paths, graph coloring, and applications of graph theory in real-world problems.
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="service__number">08</div>
+                            <div class="service__info">
+                                <span>Semester 7</span>
+                                <span class="service__title">Discrete Event Simulation Modeling </span>
+                            </div>
+                            <div class="service__text">
+                                Simulation with Flexim
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="service__number">09</div>
+                            <div class="service__info">
+                                <span>Semester 7</span>
+                                <span class="service__title">Operational Machine Learnings</span>
+                            </div>
+                            <div class="service__text">
+                                Supervised and unsupervised learning algorithms, data preprocessing, model evaluation, and deploying machine learning models in real-world operational settings.
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="service__number">10</div>
+                            <div class="service__info">
+                                <span>Semester 7</span>
+                                <span class="service__title">Stochastic Optimization</span>
+                            </div>
+                            <div class="service__text">
+                                 MCMC and Genetic algorithms
+                            </div>
+                        </div>
+                        <div class="service__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="service__number">11</div>
+                            <div class="service__info">
+                                <span>Semester 7</span>
+                                <span class="service__title">Combinatorial Optimization</span>
+                            </div>
+                            <div class="service__text">
+                               Integer programming, network optimization, heuristic methods, and their applications in scheduling, resource allocation, and logistics.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End:: services section -->
+            
+            <!-- Start:: certificates section -->
+            <section id="certificate" class="section">
+                <div class="container relative">
+                    <span class="shape shape--4" data-animate="fade">
+                        <img src="images/shapes/stars.svg" class="shape shape--9" alt="">
+                    </span>
+                    <div class="section__head relative" data-animate="fade-up">
+                        <span class="section__subtitle">Certifications</span>
+                        <h2>An Overview of the Certifications <span class="fw-semibold">I Have Obtained</span></h2>
+                        <p>I have obtained certificates through completion of courses on Coursera and active participation in hackathons.</p>
+                    </div>
+                    <!-- Certificates -->
+                    <div class="certificate">
+                        <div class="certificate__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="certificate__number">01</div>
+                            <div class="certificate__info">
+                                <span>Microsoft</span>
+                                <span class="certificate__title"><a href="#">Microsoft Power BI Data Analyst </a></span>
+                            </div>
+                        </div>
+                        <div class="certificate__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="certificate__number">02</div>
+                            <div class="certificate__info">
+                                <span>LearnQuest</span>
+                                <span class="certificate__title"><a href="https://www.coursera.org/account/accomplishments/specialization/6QGFRE5ZAR2Y">Scrum Master Certification </a></span>
+                            </div>
+                        </div>
+                        <div class="certificate__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="certificate__number">03</div>
+                            <div class="certificate__info">
+                                <span>University of Alberta</span>
+                                <span class="certificate__title"><a href="https://www.coursera.org/account/accomplishments/verify/9FBPMVAPHPX9">Client Needs and Software Requirements </a></span>
+                            </div>
+                        </div>
+                        <div class="certificate__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="certificate__number">04</div>
+                            <div class="certificate__info">
+                                <span>The Hong Kong University of Science and Technology</span>
+                                <span class="certificate__title"><a href="https://www.coursera.org/account/accomplishments/verify/BLTS24YA37PF">Software Engineering: Modeling Software Systems using UML </a></span>
+                            </div>
+                        </div>
+                        <div class="certificate__item" data-animate="fade-up" data-animate-delay="400ms">
+                            <div class="certificate__number">05</div>
+                            <div class="certificate__info">
+                                <span>Google</span>
+                                <span class="certificate__title"><a href="https://www.coursera.org/account/accomplishments/professional-cert/KX6HLYE28DYB">Google Data Analytics </a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End:: certificate section -->
+            
+            <!-- Start:: portfolio section -->
+            <section id="portfolio" class="section">
+                <div class="container">
+                    <!-- Portfolio head -->
+                    <div class="portfolio-head relative">
+                        <div class="shape shape--5" data-animate="fade-right">
+                            <img src="images/shapes/direction.svg" alt="">
+                        </div>
+                        <div class="portfolio-content" data-animate="fade" data-animate-delay="200ms">
+                            <h2>Recent <span class="fw-semibold">works</span></h2>
+                            <p> A snapshot of my recent achievements. </p>
+                        </div>
+                        <a href="portfolio.html" class="arrow-link underline-animation" data-animate="fade" data-animate-delay="200ms">
+                            <span>View All</span>
+                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" d="M12.8137 1.00819C12.8137 0.732049 12.5899 0.508192 12.3137 0.508191L7.81371 0.508191C7.53757 0.508191 7.31371 0.732049 7.31371 1.00819C7.31371 1.28433 7.53757 1.50819 7.81371 1.50819L11.8137 1.50819L11.8137 5.50819C11.8137 5.78433 12.0376 6.00819 12.3137 6.00819C12.5899 6.00819 12.8137 5.78433 12.8137 5.50819L12.8137 1.00819ZM1.35355 12.6755L12.6673 1.36174L11.9602 0.654638L0.646447 11.9683L1.35355 12.6755Z"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <!-- Portfolio body -->
+                    <div class="portfolio-body relative">
+                        <div id="portfolio_cards" class="swiper" data-animate="fade-up">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                     <div class="card">
+                                        <a href="https://github.com/debad1/GreenVoice" class="card__cover" aria-labelledby="portfolio_card_1">
+                                            <img src="images\hero\greenvoice.png" alt="">
+                                        </a>
+                                    <span class="card__subtitle">Intrapreneuriat</span>
+                                    <div id="portfolio_card_1" class="h5 mb-0">
+                                         <a href="https://github.com/debad1/GreenVoice" class="underline-animation">GreenVoice</a>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <a href="https://test-sp-ba5ad.web.app/soutien-scolaire/6-eme_mathematiques" class="card__cover" aria-labelledby="portfolio_card_2">
+                                            <img src="images\hero\smartprof.png" alt="">
+                                        </a>
+                                    <span class="card__subtitle">Web development</span>
+                                    <div id="portfolio_card_2" class="h5 mb-0">
+                                        <a href="https://test-sp-ba5ad.web.app/soutien-scolaire/6-eme_mathematiques" class="underline-animation">Search Engine</a>
+                                    </div>
+                            </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card">
+                                        <a href="https://github.com/debad1/Simulation-of-a-blood-supply-chain" class="card__cover" aria-labelledby="portfolio_card_3">
+                                            <img src="images\hero\simulation.png" alt="">
+                                        </a>
+                                    <span class="card__subtitle">Simulation</span>
+                                    <div id="portfolio_card_3" class="h5 mb-0">
+                                        <a href="https://github.com/debad1/Simulation-of-a-blood-supply-chain" class="underline-animation">Simulation of a blood supply chain</a>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End:: portfolio section -->
+
+
+            </section>
+            <!-- Start:: testimonials section -->
+            <section id="testimonials" class="section">
+                <div class="container">
+                    <div class="section__head" data-animate="fade-up">
+                        <span class="section__subtitle">Testimonials</span>
+                        <h2>What they <span class="fw-semibold">say?</span></h2>
+                    </div>
+                    <!-- Testimonial slider -->
+                    <div class="testimonial" data-animate="fade-up" data-animate-delay="400ms">
+                        <div id="testimonial_slider" class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img src="images/icons/quote.svg" class="quote" alt="">
+                                    <p>Christian stands out for exemplary diligence and punctuality, exceptional teamwork skills, and notable autonomy and responsibility. His communication skills, both in listening and expression, are remarkable. He excels in methodology and organization, demonstrating an ability to efficiently synthesize information and articulate problems clearly. In summary, he combines essential professional qualities such as autonomy, effective collaboration, communication, and efficient task management.</p>
+                                    <div class="author">
+                                        <div class="author__image">
+                                            <img src="images/avatar.png" alt="">
+                                        </div>
+                                        <span class="author__name">Ali FAOUZI</span>
+                                        <p>Technical Director - Smartprof</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/icons/quote.svg" class="quote" alt="">
+                                    <p>Christian stands out for exemplary diligence and punctuality, exceptional teamwork skills, and notable autonomy and responsibility. His communication skills, both in listening and expression, are remarkable. He excels in methodology and organization, demonstrating an ability to efficiently synthesize information and articulate problems clearly. In summary, he combines essential professional qualities such as autonomy, effective collaboration, communication, and efficient task management.</p>
+                                    <div class="author">
+                                        <div class="author__image">
+                                            <img src="images/avatar.png" alt="">
+                                        </div>
+                                        <span class="author__name">Ali FAOUZI</span>
+                                        <p>Technical Director - Smartprof</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img src="images/icons/quote.svg" class="quote" alt="">
+                                    <p>Christian stands out for exemplary diligence and punctuality, exceptional teamwork skills, and notable autonomy and responsibility. His communication skills, both in listening and expression, are remarkable. He excels in methodology and organization, demonstrating an ability to efficiently synthesize information and articulate problems clearly. In summary, he combines essential professional qualities such as autonomy, effective collaboration, communication, and efficient task management.</p>
+                                    <div class="author">
+                                        <div class="author__image">
+                                            <img src="images/avatar.png" alt="">
+                                        </div>
+                                        <span class="author__name">Ali FAOUZI</span>
+                                        <p>Technical Director - Smartprof</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End:: testimonials section -->
+
+            <!-- Start:: cta section -->
+            <section class="section">
+                <div class="container relative">
+                    <img src="images/shapes/dawn.svg" class="shape shape--6" data-animate="fade" data-animate-delay="400ms" alt="">
+                    <div class="cta relative">
+                        <h2 class="cta__title" data-animate="fade-right">Seeking an internship ! <span class="fw-semibold">Are you currently offering any internships? </span></h2>
+                        <div class="cta__content" data-animate="fade-left">
+                            <p>I'm eager to discuss how I can contribute to your team and gain valuable experience.</p>
+                            <div class="link-group">
+                                <a href="theme\Resume.pdf" class="btn btn--secondary" download="Resume_Christian_BADOLO.pdf">
+                                    <span>Download Resume</span>
+                                    <span class="btn__icon">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="currentColor" d="M12.9999 16.1716L18.3638 10.8076L19.778 12.2218L11.9999 20L4.22168 12.2218L5.63589 10.8076L10.9999 16.1716V4H12.9999V16.1716Z"/>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <a href="portfolio.html" class="arrow-link underline-animation">
+                                    <span>My Works</span>
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill="currentColor" d="M12.8137 1.00819C12.8137 0.732049 12.5899 0.508192 12.3137 0.508191L7.81371 0.508191C7.53757 0.508191 7.31371 0.732049 7.31371 1.00819C7.31371 1.28433 7.53757 1.50819 7.81371 1.50819L11.8137 1.50819L11.8137 5.50819C11.8137 5.78433 12.0376 6.00819 12.3137 6.00819C12.5899 6.00819 12.8137 5.78433 12.8137 5.50819L12.8137 1.00819ZM1.35355 12.6755L12.6673 1.36174L11.9602 0.654638L0.646447 11.9683L1.35355 12.6755Z"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End:: cta section -->
+
+
+            <!-- Start:: contact section -->
+            <section id="contact" class="section">
+                <div class="container">
+                    <div class="mb-64 relative">
+                        <img src="images/shapes/stars.svg" class="shape shape--9" alt="">
+                        <span class="section__subtitle">Let’s talk</span>
+                        <h2 class="mb-0">Get in <span class="fw-semibold">touch</span></h2>
+                    </div>
+                    <div class="row">
+                        <!-- Contact form -->
+                        <div class="contact-form relative">
+                            <img src="images/shapes/flower.svg" class="shape shape--8" alt="">
+                            <form class="relative">
+                                <div class="form-group">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" id="name" class="form-control" placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="text" id="email" class="form-control" placeholder="Enter your email id">
+                                </div>
+                                <div class="form-group">
+                                    <label for="msg" class="form-label">Message</label>
+                                    <textarea name="msg" id="msg" cols="30" rows="5" class="form-control" placeholder="Write your words"></textarea>
+                                </div>
+                                <button type="submit" id="contact_btn" class="btn btn--primary">
+                                    <span>Send Now</span> 
+                                    <span class="btn__icon">
+                                        <svg width="20" height="20" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill="currentColor" d="M21.7264 2.95706L16.2732 22.0433C16.1222 22.5718 15.7976 22.5958 15.5561 22.1127L10.9998 13.0002L1.92266 9.36931C1.41298 9.16544 1.41929 8.86034 1.9567 8.6812L21.0429 2.31913C21.5714 2.14297 21.8745 2.43878 21.7264 2.95706ZM19.0351 5.0966L6.81197 9.17097L12.4486 11.4256L15.4893 17.507L19.0351 5.0966Z"/>
+                                        </svg>
+                                    </span>
+                                </button>
+                                <div id="form_message"></div>
+                            </form>
+                        </div>
+                        <!-- Contact cover image -->
+                        <div class="contact-cover relative">
+                            <span class="shape shape--10">
+                                <svg width="186" height="100%" viewBox="0 0 186 198" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M75.7729 17.2222L70.6186 22.3765L115.371 22.3766L110.217 17.2219L75.7729 17.2222ZM97.7723 4.77753L88.2177 4.77745L92.9949 0.000169516L97.7723 4.77753ZM127.816 34.8209L58.1738 34.8213L53.0195 39.9756L132.97 39.9757L127.816 34.8209ZM145.415 52.42L40.5747 52.4204L35.4204 57.5748L150.57 57.5748L145.415 52.42ZM163.014 70.0191L22.9756 70.0195L17.8211 75.174L168.169 75.1739L163.014 70.0191ZM180.613 87.6182L5.37668 87.6184L0.221987 92.7731L185.768 92.773L180.613 87.6182ZM185.767 105.218L0.222294 105.217L5.37703 110.372L180.613 110.372L185.767 105.218ZM168.168 122.817L17.8214 122.817L22.976 127.971L163.014 127.971L168.168 122.817ZM150.569 140.416L35.4204 140.415L40.5751 145.57L145.415 145.57L150.569 140.416ZM132.97 158.015L53.0195 158.015L58.1742 163.169L127.816 163.169L132.97 158.015ZM115.371 175.614L70.6186 175.614L75.7733 180.768L110.216 180.769L115.371 175.614ZM97.772 193.213L88.2177 193.213L92.9949 197.99L97.772 193.213Z"/>
+                                </svg>
+                            </span>
+                            <img src="images/hero/hero-1.png" class="contact-cover__image" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End:: contact section -->
+
+            <!-- Start:: footer -->
+            <footer class="container">
+                <div class="footer relative">
+                    <!-- Footer header -->
+                    <div class="footer-head">
+                        <div class="footer-content">
+                            <h2 class="h1">Keep in Touch!</h2>
+                            <p>Let's maintain our connection for updates, insights, and engaging discussions on industry trends.</p>
+                        </div>
+                        <a href="#" aria-label="Scroll top" class="circle" data-offset="0">
+                            <img src="images/icons/scroll-top.svg" alt="">
+                        </a>
+                    </div>
+                    <!-- Footer body -->
+                    <div class="footer-body fw-medium">
+                        <div class="footer-body__item">
+                            <span class="footer-body__title">Call:</span>
+                            <a href="tel:07001-27382" class="underline-animation">07001-27382</a>
+                        </div>
+                        <div class="footer-body__item">
+                            <span class="footer-body__title">Email:</span>
+                            <a href="mailto:christian.badolo@centrale-casablanca.ma" class="underline-animation">christian.badolo@centrale-casablanca.ma</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- End:: footer -->
+
+        </main>
+        <!-- End:: main -->
+
+    </div>
+    <!-- End:: wrapper -->
+
+    <!-- Scripts -->
+    <script src="js/plugins.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
